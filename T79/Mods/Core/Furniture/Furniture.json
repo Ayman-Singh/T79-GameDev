@@ -1,0 +1,1684 @@
+[
+	{
+		"categories": [
+			"Urban",
+			"Livingroom"
+		],
+		"description": "A round wooden table. This weathered relic from a bygone era stands as a testament to a simpler time, a stark contrast to the harsh reality surrounding it.\nThe table's surface bears the scars a history as a dining spot.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "table_round_wood",
+		"moveable": true,
+		"name": "Round wooden table",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"RockyHill_SW",
+					"abandoned_building",
+					"generichouse_end",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "table_64.png",
+		"weight": 10
+	},
+	{
+		"categories": [
+			"Urban",
+			"Livingroom"
+		],
+		"description": "A simple wooden chair, its construction is basic yet sturdy, a testament to durability in the face of decay. \nWith a rough-hewn seat and a backrest that bears the marks of time, this chair offers a momentary respite from the unforgiving environment.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "chair_wood",
+		"moveable": true,
+		"name": "Wooden chair",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"RockyHill_SW",
+					"abandoned_building",
+					"generichouse_end",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "chair_32.png",
+		"weight": 2
+	},
+	{
+		"Function": {
+			"container_group": "kitchen_cupboard",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Kitchen",
+			"Indoor"
+		],
+		"description": "One of the central pieces of fruniture that make up a kitchen",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"disassembly": {
+			"group": "disassembled_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "countertop_wood",
+		"moveable": false,
+		"name": "Wooden countertop",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"two_story_house"
+				]
+			}
+		},
+		"sprite": "countertop_100_52.png",
+		"support_shape": {
+			"color": "8d401bff",
+			"depth_scale": 100,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 100
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Nature"
+		],
+		"description": "A common tree",
+		"destruction": {
+			"group": "tree_destroyed",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "Tree_00",
+		"moveable": false,
+		"name": "Tree",
+		"references": {
+			"core": {
+				"maps": [
+					"urbanroad_t",
+					"urbanroad_corner",
+					"generichouse_corner",
+					"store_electronic_clothing",
+					"forest_basic_00",
+					"Generichouse",
+					"Generichouse_00",
+					"field_grass_basic_00",
+					"RockyHill_SE",
+					"RockyHill_SW",
+					"RockyHill_NE",
+					"generichouse_end",
+					"RockyHill_NW",
+					"urbanroad_cross",
+					"forest_road_straight",
+					"forest_road_corner",
+					"forest_road_t",
+					"forest_road_cross",
+					"subway_station",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"radio_tower",
+					"urbanroad",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "Tree_100.png",
+		"support_shape": {
+			"color": "653102ff",
+			"height": 0.5,
+			"radius_scale": 50,
+			"shape": "Cylinder",
+			"transparent": false
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Nature"
+		],
+		"description": "A common pine tree",
+		"destruction": {
+			"group": "tree_destroyed",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "PineTree_00",
+		"moveable": false,
+		"name": "Pine tree",
+		"references": {
+			"core": {
+				"maps": [
+					"urbanroad_t",
+					"urbanroad_corner",
+					"generichouse_corner",
+					"store_electronic_clothing",
+					"forest_basic_00",
+					"field_grass_basic_00",
+					"RockyHill_SE",
+					"RockyHill_SW",
+					"generichouse_end",
+					"RockyHill_NW",
+					"urbanroad_cross",
+					"forest_road_straight",
+					"forest_road_corner",
+					"forest_road_t",
+					"forest_road_cross",
+					"subway_station",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"radio_tower",
+					"urbanroad",
+					"RockyHill_NE",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "PineTree_100.png",
+		"support_shape": {
+			"color": "9b522fff",
+			"height": 0.5,
+			"radius_scale": 50,
+			"shape": "Cylinder",
+			"transparent": false
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Nature"
+		],
+		"description": "A common willow tree",
+		"destruction": {
+			"group": "tree_destroyed",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "WillowTree_00",
+		"moveable": false,
+		"name": "Willow tree",
+		"references": {
+			"core": {
+				"maps": [
+					"urbanroad_t",
+					"urbanroad_corner",
+					"generichouse_corner",
+					"store_electronic_clothing",
+					"forest_basic_00",
+					"Generichouse",
+					"Generichouse_00",
+					"field_grass_basic_00",
+					"RockyHill_SE",
+					"RockyHill_NE",
+					"generichouse_end",
+					"RockyHill_NW",
+					"urbanroad_cross",
+					"forest_road_straight",
+					"forest_road_corner",
+					"forest_road_t",
+					"forest_road_cross",
+					"subway_station",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"radio_tower",
+					"urbanroad",
+					"RockyHill_SW",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "WillowTree_100.png",
+		"support_shape": {
+			"color": "9e5137ff",
+			"height": 0.5,
+			"radius_scale": 50,
+			"shape": "Cylinder",
+			"transparent": false
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Livingroom"
+		],
+		"description": "A simple wooden bench that can seat multiple people, offering a resting spot or a place for interaction.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "bench_wood",
+		"moveable": false,
+		"name": "Wooden bench",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"store_groceries",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house"
+				]
+			}
+		},
+		"sprite": "bench_wood_100_50.png",
+		"support_shape": {
+			"color": "8d4924ff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Livingroom"
+		],
+		"description": "A small pot holding a green plant, which can be placed indoors to enhance the aesthetics",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "plant_pot_00",
+		"moveable": true,
+		"name": "Potted plant",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"store_electronic_clothing",
+					"Generichouse",
+					"Generichouse_00",
+					"store_groceries",
+					"generichouse_end",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "pot_plant_32_32.png",
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor",
+			"Bedroom"
+		],
+		"description": "A basic wooden bed with a mattress, which could be used to rest",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "bed_wood_single_00",
+		"moveable": false,
+		"name": "Wooden bed",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"RockyHill_SW",
+					"generichouse_end",
+					"two_story_house",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "bed_wood_100_50.png",
+		"support_shape": {
+			"color": "8d4925ff",
+			"depth_scale": 95,
+			"height": 0.2,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"container_group": "cabinet_general",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A storage unit with doors, useful for storing items or resources that you might collect.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "cabinet_wood_00",
+		"moveable": false,
+		"name": "Wooden cabinet",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"RockyHill_SW",
+					"generichouse_end",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "cabinet_wood_100_50.png",
+		"support_shape": {
+			"color": "864100ff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A tall wooden bookcase with multiple shelves",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "bookcase_wood_00",
+		"moveable": false,
+		"name": "Wooden bookcase",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "bookcase_wood_100_50.png",
+		"support_shape": {
+			"color": "96522eff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"container_group": "refridgerator",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Kitchen",
+			"Indoor"
+		],
+		"description": "One of the central pieces of fruniture that make up a kitchen",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "refrigerator_00",
+		"moveable": false,
+		"name": "Refrigerator",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "refrigerator_50_48.png",
+		"support_shape": {
+			"color": "bfbfbfff",
+			"depth_scale": 95,
+			"height": 0.6,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "Centerpiece of the bathroom",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "toilet_00",
+		"moveable": false,
+		"name": "Toilet",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"store_electronic_clothing",
+					"Generichouse",
+					"Generichouse_00",
+					"store_groceries",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "toilet_48.png",
+		"support_shape": {
+			"color": "bdbebdff",
+			"height": 0.2,
+			"radius_scale": 40,
+			"shape": "Cylinder",
+			"transparent": false
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"door": "Closed"
+		},
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "It keeps people from passing trough this area. It can be opened and closed",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "door_wood",
+		"moveable": false,
+		"name": "Wooden door",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_corner",
+					"generichouse_cross",
+					"generichouse_t",
+					"store_electronic_clothing",
+					"Generichouse",
+					"Generichouse_00",
+					"store_groceries",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "door_100_13.png",
+		"support_shape": {
+			"color": "c7632eff",
+			"depth_scale": 95,
+			"height": 0.9,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Rural",
+			"Outdoor"
+		],
+		"description": "A weathered garden bench, perfect for a short rest amidst the overgrown foliage.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "bench_garden",
+		"moveable": false,
+		"name": "Garden bench",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"store_electronic_clothing",
+					"subway_station",
+					"city_square",
+					"neighborhood_school"
+				]
+			}
+		},
+		"sprite": "bench_garden_90_40.png",
+		"support_shape": {
+			"color": "96522eff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"container_group": "clothing_general",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A wardrobe, once used for storing clothes.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "wardrobe",
+		"moveable": false,
+		"name": "Wardrobe",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "wardrobe_80_40.png",
+		"support_shape": {
+			"color": "b75a2eff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Rural",
+			"Outdoor"
+		],
+		"description": "A wooden picnic table, often found in parks, now a place for scavengers to rest or eat.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "table_picknic",
+		"moveable": false,
+		"name": "Picnic table",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse"
+				]
+			}
+		},
+		"sprite": "table_picknic_100_50.png",
+		"support_shape": {
+			"color": "8d492eff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "An office chair, uncomfortable but still functional for short rests.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "chair_office",
+		"moveable": true,
+		"name": "Office chair",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"store_electronic_clothing",
+					"store_groceries",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "chair_office_50.png",
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Industrial",
+			"Indoor"
+		],
+		"description": "A rusted metal table, sturdy enough to place heavy items or tools on.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "table_metal",
+		"moveable": false,
+		"name": "Metal table",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"store_electronic_clothing",
+					"RockyHill_SW",
+					"store_groceries",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"two_story_house",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "table_metal_100_50.png",
+		"support_shape": {
+			"color": "a7a7a7ff",
+			"depth_scale": 80,
+			"height": 0.3,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 80
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A standing lamp that provides faint light, useful for dimly lit areas.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "lamp_standing",
+		"moveable": true,
+		"name": "Standing lamp",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"store_electronic_clothing",
+					"RockyHill_SW",
+					"store_groceries",
+					"office_building_00",
+					"skyscraper",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "lamp_50.png",
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A damaged desk, still usable for placing items or crafting tools.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "desk",
+		"moveable": false,
+		"name": "Desk",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"store_electronic_clothing",
+					"store_groceries",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "desk_100_50.png",
+		"support_shape": {
+			"color": "af5225ff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A cracked bathtub, once luxurious, now a grim reminder of the past.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "bathtub",
+		"moveable": false,
+		"name": "Bathtub",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse_00",
+					"generichouse_t",
+					"generichouse_cross",
+					"two_story_house"
+				]
+			}
+		},
+		"sprite": "bathtub_100_50.png",
+		"support_shape": {
+			"color": "a7a7a7ff",
+			"depth_scale": 80,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 80
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Rural",
+			"Indoor"
+		],
+		"description": "A stove, usable for cooking and can be scavenged for metal parts.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "stove",
+		"moveable": false,
+		"name": "Stove",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house"
+				]
+			}
+		},
+		"sprite": "stove_50_48.png",
+		"support_shape": {
+			"color": "aeaeaeff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A standing mirror, reflecting the harsh realities of the world.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "standing_mirror",
+		"moveable": false,
+		"name": "Standing mirror",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"store_electronic_clothing",
+					"store_groceries",
+					"generichouse_t",
+					"office_building_00",
+					"skyscraper",
+					"two_story_house",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "standing_mirror_50.png",
+		"support_shape": {
+			"color": "8e8e8eff",
+			"height": 0.2,
+			"radius_scale": 20,
+			"shape": "Cylinder",
+			"transparent": false
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Indoor"
+		],
+		"description": "A sofa, offering minimal comfort but useful for quick rests.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "sofa",
+		"moveable": false,
+		"name": "Sofa",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse_00",
+					"office_building_00",
+					"skyscraper",
+					"two_story_house"
+				]
+			}
+		},
+		"sprite": "sofa_100_50.png",
+		"support_shape": {
+			"color": "2d369dff",
+			"depth_scale": 80,
+			"height": 0.2,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 80
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A dilapidated cash register, with some buttons missing but still operational.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "North",
+		"id": "cash_register",
+		"moveable": false,
+		"name": "Cash Register",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"store_groceries",
+					"office_building_00",
+					"skyscraper",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "cash_register_50.png",
+		"support_shape": {
+			"color": "9e9e9eff",
+			"depth_scale": 90,
+			"height": 0.3,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 90
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A metal shopping cart, rusted and difficult to push but useful for carrying items.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "None",
+		"id": "shopping_cart",
+		"moveable": true,
+		"name": "Shopping Cart",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"store_groceries"
+				]
+			}
+		},
+		"sprite": "shopping_cart_90_50.png",
+		"weight": 2
+	},
+	{
+		"Function": {
+			"container_group": "refridgerator",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A broken glass display case, now mostly empty but could hide some useful items.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "North",
+		"id": "display_case",
+		"moveable": false,
+		"name": "Display Case",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"store_groceries",
+					"skyscraper"
+				]
+			}
+		},
+		"sprite": "display_case_100_50.png",
+		"support_shape": {
+			"color": "9f9f9fff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"container_group": "vending_machine_drinks",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A rusted, old vending machine, with a few snacks still inside.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "South",
+		"id": "vending_machine",
+		"moveable": false,
+		"name": "Vending Machine",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"store_groceries",
+					"subway_station",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "vending_machine_50.png",
+		"support_shape": {
+			"color": "bf2e2eff",
+			"depth_scale": 95,
+			"height": 0.6,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"container_group": "clothing_general",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A sturdy metal frame with horizontal bars for hanging clothes. It often has wheels for easy mobility and can hold a variety of garments.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "None",
+		"id": "clothing_rack",
+		"moveable": true,
+		"name": "Clothing Rack",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing"
+				]
+			}
+		},
+		"sprite": "clothing_rack_90_50.png",
+		"weight": 5
+	},
+	{
+		"Function": {
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A tall shelving unit made of metal, used for displaying merchandise. It has multiple tiers for organizing products.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "None",
+		"id": "store_shelf",
+		"moveable": false,
+		"name": "Store Shelf",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"store_groceries",
+					"office_building_00",
+					"skyscraper",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "store_shelf_90_50.png",
+		"support_shape": {
+			"color": "a7855bff",
+			"depth_scale": 80,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 80
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"door": "Closed"
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A tall, narrow gate placed at store entrances and exits to prevent theft. It often has sensors that trigger alarms when unauthorized items pass through.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "North",
+		"id": "security_gate",
+		"moveable": false,
+		"name": "Security Gate",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"RockyHill_SW",
+					"store_groceries",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "security_gate_100_13.png",
+		"support_shape": {
+			"color": "8b8b8bff",
+			"depth_scale": 80,
+			"height": 0.7,
+			"shape": "Box",
+			"transparent": true,
+			"width_scale": 80
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A container for disposing of waste, commonly found near the entrance or checkout area of a store. It can be made of plastic or metal and often has a lid.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "None",
+		"id": "trash_bin",
+		"moveable": true,
+		"name": "Trash Bin",
+		"references": {
+			"core": {
+				"maps": [
+					"generichouse_t",
+					"Generichouse",
+					"Generichouse_00",
+					"generichouse_corner",
+					"store_electronic_clothing",
+					"store_groceries",
+					"generichouse_end",
+					"subway_station",
+					"city_square",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "trash_bin_32.png",
+		"weight": 1
+	},
+	{
+		"Function": {
+			"container_group": "cabinet_general",
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A shelf mounted on the wall, used for displaying smaller items or merchandise. It's made of wood.",
+		"destruction": {
+			"group": "destroyed_furniture_medium"
+		},
+		"edgesnapping": "North",
+		"id": "wall_shelf",
+		"moveable": false,
+		"name": "Wall Shelf",
+		"references": {
+			"core": {
+				"maps": [
+					"store_electronic_clothing",
+					"store_groceries",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"abandoned_building",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "wall_shelf_100_40.png",
+		"support_shape": {
+			"color": "965a25ff",
+			"depth_scale": 90,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 90
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban"
+		],
+		"description": "It keeps people from passing trough this area. It is very fragile",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "window_glass",
+		"moveable": false,
+		"name": "Glass window",
+		"references": {
+			"core": {
+				"maps": [
+					"Generichouse",
+					"Generichouse_00",
+					"generichouse_cross",
+					"generichouse_corner",
+					"generichouse_t",
+					"store_electronic_clothing",
+					"store_groceries",
+					"generichouse_end",
+					"office_building_00",
+					"skyscraper",
+					"neighborhood_school",
+					"two_story_house",
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "glass_window.png",
+		"support_shape": {
+			"color": "869bcdff",
+			"depth_scale": 100,
+			"height": 0.98,
+			"shape": "Box",
+			"transparent": true,
+			"width_scale": 100
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store"
+		],
+		"description": "A set of shelves with broken planks and missing sections, but still usable for storing a few items.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "damaged_shelves",
+		"moveable": false,
+		"name": "Damaged Shelves",
+		"references": {
+			"core": {
+				"maps": [
+					"abandoned_building",
+					"two_story_house",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "damaged_shelves_90_45.png",
+		"support_shape": {
+			"color": "d76c2eff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Outdoor"
+		],
+		"description": "A fence reduced to broken posts, offering little protection but still marking boundaries.",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "North",
+		"id": "destroyed_fence",
+		"moveable": false,
+		"name": "Destroyed Fence",
+		"references": {
+			"core": {
+				"maps": [
+					"abandoned_building",
+					"parking_garage",
+					"city_square",
+					"neighborhood_school",
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "fence_destroyed_90_10.png",
+		"support_shape": {
+			"color": "c75a1cff",
+			"depth_scale": 95,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": true,
+			"width_scale": 95
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Rail",
+			"Infrastructure"
+		],
+		"description": "Supporting beams to put in between rail sections",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "railroad_midsection",
+		"moveable": false,
+		"name": "Railroad midsection",
+		"references": {
+			"core": {
+				"maps": [
+					"subway_station"
+				]
+			}
+		},
+		"sprite": "railroad_midsection.png",
+		"support_shape": {
+			"color": "a65a2eff",
+			"depth_scale": 100,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 100
+		},
+		"weight": 1
+	},
+	{
+		"categories": [
+			"Urban",
+			"Rail",
+			"Infrastructure"
+		],
+		"description": "Supporting beams and a rail for a train to run on",
+		"destruction": {
+			"group": "destroyed_furniture_medium",
+			"sprite": "wreck_wood_generic_32.png"
+		},
+		"edgesnapping": "None",
+		"id": "railroad_railsection",
+		"moveable": false,
+		"name": "Railroad rail section",
+		"references": {
+			"core": {
+				"maps": [
+					"subway_station"
+				]
+			}
+		},
+		"sprite": "railroad_railsection.png",
+		"support_shape": {
+			"color": "a65a2eff",
+			"depth_scale": 100,
+			"height": 0.5,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 100
+		},
+		"weight": 1
+	},
+	{
+		"Function": {
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store",
+			"Tech"
+		],
+		"description": "A set of equipment racks housing transmitters, receivers, power distribution units, and networking devices. Wires and cables hang loosely, some frayed from years of neglect.",
+		"destruction": {
+			"group": "destroyed_furniture_large"
+		},
+		"edgesnapping": "North",
+		"id": "equipment_rack",
+		"moveable": false,
+		"name": "Equipment Rack",
+		"references": {
+			"core": {
+				"maps": [
+					"radio_tower",
+					"police_station"
+				]
+			}
+		},
+		"sprite": "equipmentrack_100_46.png",
+		"support_shape": {
+			"color": "386c2fff",
+			"depth_scale": 100,
+			"height": 0.7,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 80
+		},
+		"weight": 5
+	},
+	{
+		"Function": {
+			"is_container": true
+		},
+		"categories": [
+			"Urban",
+			"Store",
+			"Medical"
+		],
+		"description": "Wall-mounted racks holding emergency tools and first-aid kits. The kits are old but still contain useful supplies for survival and quick repairs.",
+		"destruction": {
+			"group": "destroyed_furniture_small"
+		},
+		"edgesnapping": "North",
+		"id": "first_aid_rack",
+		"moveable": false,
+		"name": "First-Aid Rack",
+		"references": {
+			"core": {
+				"maps": [
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "first_aid_rack_72_46.png",
+		"support_shape": {
+			"color": "b3b3b3ff",
+			"depth_scale": 50,
+			"height": 0.6,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 60
+		},
+		"weight": 2
+	},
+	{
+		"categories": [
+			"Urban",
+			"Infrastructure"
+		],
+		"description": "A transformer box, reinforced and weatherproof, located near a tower base. It hums quietly, providing power to nearby structures, though it's clear it has been used heavily over the years.",
+		"destruction": {
+			"group": "destroyed_furniture_large"
+		},
+		"edgesnapping": "North",
+		"id": "transformer_box",
+		"moveable": false,
+		"name": "Transformer Box",
+		"references": {
+			"core": {
+				"maps": [
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "transformer_box_72_46.png",
+		"support_shape": {
+			"color": "8a8a8aff",
+			"depth_scale": 100,
+			"height": 0.9,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 100
+		},
+		"weight": 8
+	},
+	{
+		"categories": [
+			"Urban",
+			"Tech"
+		],
+		"description": "An uninterruptible power supply (UPS), used to keep vital equipment running during power loss. This device is compact but heavy, with a display that shows its battery status.",
+		"destruction": {
+			"group": "destroyed_furniture_small"
+		},
+		"edgesnapping": "North",
+		"id": "ups",
+		"moveable": false,
+		"name": "UPS",
+		"references": {
+			"core": {
+				"maps": [
+					"radio_tower"
+				]
+			}
+		},
+		"sprite": "ups_20_45.png",
+		"support_shape": {
+			"color": "212121ff",
+			"depth_scale": 100,
+			"height": 0.7,
+			"shape": "Box",
+			"transparent": false,
+			"width_scale": 50
+		},
+		"weight": 3
+	}
+]
